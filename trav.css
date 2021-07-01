@@ -1,0 +1,32 @@
+body{
+	background-image: url("7.png");
+	background-repeat: no-repeat;
+	background-size: 1900px 1000px;
+}
+h1,p{
+	color: #ffffff;
+	text-shadow: 4px 4px 6px #1ac6ff;
+}
+h1{
+	font-size: 50px;
+}
+p{
+	font-size: 25px;
+	margin-left: 1px;
+}
+
+div {
+  padding: 140px;
+}
+div>h1 {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+div>p {
+	font-style: italic;
+  text-align: justify;
+  font-size: 20px;
+}
+

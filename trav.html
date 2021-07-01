@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="trav.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> The Traveller Bot</title>
+</head>
+<body>
+
+<h1>Welcome to your personal Mumbai Guide</h1>
+<div>
+  <h1>To the traveller: </h1>
+  <p>We wander for distraction, but we travel for fulfilment.</p>
+</div>
+
+<div style="align-items: center;">
+  <!-- IBM Watson Assistant was used, you can use the link to go to the assistant training website 
+                https://www.ibm.com/in-en/cloud/watson-assistant
+  they provide with a script to attach the assistant in your webpage used below -->
+<script>
+  window.watsonAssistantChatOptions = {
+
+      integrationID: "3c6b5217-c7c6-49db-b872-d3ed645e20bd", // The ID of this integration.
+      region: "eu-gb", // The region your integration is hosted in.
+      serviceInstanceID: "1d1744eb-d1c5-4a11-b4fc-6046cc614da9", // The ID of your service instance.
+      carbonTheme : 'g90',
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script> </div>
+</body>
+</html>
