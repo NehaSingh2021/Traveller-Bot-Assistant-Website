@@ -1,5 +1,5 @@
-![Project-5](https://github.com/NehaSingh2021/Traveller-Bot-Assistant-Website/assets/75617171/ad2f0a17-ae82-4038-a677-07e081fbe40c)# Traveller-Bot-Assistant-Website
-A personal companion & Tour-guide in Mumbai
+# Traveller-Bot-Assistant-Website
+Your personal companion & Tour-guide in Mumbai
 
 ## Results:
 
